@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap-5.2.2-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Plarpjar's Resume</title>
+</head>
+<body>
+    <div class="navbar">
+        <div class="row">
+            <a href="#home" class="text-white calt">Home</a>
+        </div>
+        <div class="row">
+            <a href="#about_me" class="text-white calt">About Me</a>
+        </div>
+        <div class="row">
+            <a href="#exp_skills" class="text-white calt">Skills</a>
+        </div>
+        <div class="row">
+            <a href="#contact" class="text-white calt">Contacts</a>            
+        </div>
+    </div>
+    <div class="imghome" id="home">
+        <table>
+            <tr>
+                <th class="cent">
+                    <h1 style="font-size: 4vw" class="display-1 text-white fw-bold tshadow">Parinpat Larpjaroenphorn</h1>
+                </th>
+            </tr>
+            <tr>
+                <th class="cent">
+                    <h1 style="font-size: 2vw" class="display-5 text-white fw-light text-center tshadow">
+                        42 Bangkok discovery pisciner
+                    </h1>
+                </th>
+            </tr>
+        </table>
+    </div>
+    <div class="imgcont">
+        <br>
+        <div class="container" id="about_me">
+            <div class="row">
+                <h1 style="font-size: 300%;" class="display-2 text-white UL">About Me</h1>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-sm-2">
+                    <img class="col-10" style="box-shadow: 5px 5px 10px black;" src="images/p.png" alt="">
+                </div>
+                <div class="col">
+                    <div style="font-size:150%;" class="text-white">Parinpat Larpjaroenphorn (plarpjar)</div>
+                    <div style="font-size:120%" class="text-white text-decoration-underline">Software Engineer</div>
+                    <br>
+                </div>
+            </div>
+            <div class="row">
+                <div style="font-size:120%; margin-top: 2vh;" class="text-white">
+                    I'm a self taught Python developer. I am very lazy so I make my life easier with computer vision. I have a lot of experience with lots of python libraries, specifically OpenCV and Numpy
+                </div>
+            </div>
+        </div>
+        <div class="container spacing" id="exp_skills">
+            <div class="row">
+                <h1 style="font-size: 300%;" class="display-2 text-white UL">Skills</h1>
+            </div>
+            <br>
+            <div class="row">
+                <a href="javascript:revealStats()" id="rs" style="margin-top: 3vh;
+                text-decoration-color: cyan; font-size: 170%;" class="text-white">
+                    Reveal Stats
+                </a>
+            </div>
+            <br>
+            <div class="row">
+                <p style="font-size:120%; margin-top: 5vh;" class="text-white">Python</p>
+                <div style="margin-top: 0.5vh;" class="bar-bg">
+                    <div class="bar-fill" id="bfill0"></div>
+                </div>        
+            </div>
+            <br>
+            <div class="row">
+                <p style="font-size:120%; margin-top: 2vh;" class="text-white">HTML</p>
+                <div style="margin-top: 0.5vh;" class="bar-bg">
+                    <div class="bar-fill" id="bfill1"></div>
+                </div>        
+            </div>
+            <br>
+            <div class="row">
+                <p style="font-size:120%; margin-top: 2vh;" class="text-white">CSS</p>
+                <div style="margin-top: 0.5vh;" class="bar-bg">
+                    <div class="bar-fill" id="bfill2"></div>
+                </div>        
+            </div>
+            <br>
+            <div class="row">
+                <p style="font-size:120%; margin-top: 2vh;" class="text-white">JS</p>
+                <div style="margin-top: 0.5vh;" class="bar-bg">
+                    <div class="bar-fill" id="bfill3"></div>
+                </div>        
+            </div>
+            <br>
+            <div class="row">
+                <p style="font-size:120%; margin-top: 2vh;" class="text-white">C#</p>
+                <div style="margin-top: 0.5vh;" class="bar-bg">
+                    <div class="bar-fill" id="bfill4"></div>
+                </div>        
+            </div>
+        </div>
+        <div class="container spacing" id="contact">
+            <div class="row">
+                <h1 style="font-size: 300%;" class="display-2 text-white UL">Contacts</h1>
+            </div>
+            <br>
+            <form>
+                <div class="form-check">
+                    <div class="row">
+                        <div class="col">
+                            <input type="email" class="form-control formcell" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email">
+                        </div>
+                        <div class="col">
+                            <input type="text" class="form-control formcell" placeholder="Name">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <input type="text" class="form-control formcell" placeholder="Subject">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <input style="height: 200px;" type="text" class="form-control formcell" placeholder="Message">
+                        </div>
+                    </div>
+                    <button type="submit" style="margin-top: 3vw; margin-bottom: 5vw;" class="btn btn-primary">
+                        Submit
+                    </button>
+                </div>       
+            </form>  
+        </div>
+        <div class="container"> <!-- social media Icons -->
+            <div class="row">
+                <div class="col">
+                    <a href="https://github.com/Emeep"><img class="fa" src="images/logo/github.png" alt="github"></a>
+                    <a href="https://www.instagram.com/maybe_agus/"><img class="fa" src="images/logo/ig.png" alt="instagram"></a>
+                    <a href="https://www.facebook.com/profile.php?id=100038769652879"><img class="fa" src="images/logo/facebook.png" alt="facebook"></a>
+                    <a href="https://twitter.com/Emeep6"><img class="fa" src="images/logo/twitter.png" alt="twitter"></a>
+                </div>
+            </div>
+            <div class="row">
+                <p class="text-white">&#169; 2022 plarpjar</p>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>

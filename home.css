@@ -1,0 +1,38 @@
+.imghome{ 
+    background-image: url('bg.gif');
+    background-attachment: fixed;
+    background-size: cover;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100%;
+}
+
+.cent{
+    display: flex;
+    margin: auto;
+
+    text-align: center;
+
+    justify-content: center;
+    align-items: center;
+}
+
+body,html,footer{
+    width: 100%;
+    height: 100%;
+
+    margin: 0;
+    padding: 0;
+}
+
+.homeText{
+    color: white;
+    text-decoration-color: rgb(0, 125, 125);
+}
+
+.homeText:hover{
+    color: aqua;
+    transition: 1s;
+}
